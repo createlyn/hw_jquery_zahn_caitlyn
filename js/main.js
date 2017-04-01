@@ -1,4 +1,4 @@
 $(document).ready(function () {
-    var headings = $('h2');
-    $(headings).last().text('I\'m Caitlyn Zahn, and I\'m learning jQuery!');
+    var paragraphs = $('p');
+    $(paragraphs).css({'font-size': '12px', 'background-color': '#2a2a2a', 'color': '#ffffff'});
 });
